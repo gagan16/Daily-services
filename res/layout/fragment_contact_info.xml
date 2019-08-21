@@ -1,0 +1,161 @@
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="800dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.gagan.dailyserices.TutorProfile.ContactInfoFragment">
+
+
+    <TextView
+        android:text="Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView9"
+        android:textSize="25sp" />
+    <TextView
+        android:text="Email id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView9"
+
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView16"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView16"
+        android:layout_toRightOf="@+id/textView9"
+        android:layout_toEndOf="@+id/textView9"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="100dp"
+        android:id="@+id/textViewemailid"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="Mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView16"
+
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView10"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_toRightOf="@+id/textView9"
+        android:layout_toEndOf="@+id/textView9"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        android:id="@+id/textViewmobile"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="No address Provided"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/textView1"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView24"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="City"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView24"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView3"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_toRightOf="@+id/textView9"
+        android:layout_toEndOf="@+id/textView9"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="100dp"
+        android:id="@+id/textViewcity"
+        android:textSize="20sp" />
+
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/map"
+        android:layout_alignParentLeft="true"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginEnd="19dp"
+android:layout_below="@id/textView3"
+        android:layout_marginStart="19dp"
+        tools:layout="@android:layout/preference_category"
+        android:layout_marginBottom="50dp" />
+
+    <TextView
+        android:text="Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:id="@+id/textView11"
+        android:textSize="25sp"
+        android:layout_below="@+id/textView10"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,186 @@
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="650dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="650dp"
+    tools:context="com.example.gagan.dailyserices.TutorProfile.GeneralInfoFragment">
+
+
+    <TextView
+        android:text="Introduction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView8"
+        android:textSize="25sp" />
+
+    <TextView
+        android:text="Qualification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView12"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_toRightOf="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="60dp"
+        android:id="@+id/textViewQualification"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="Experience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView12"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView13"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView13"
+        android:layout_toRightOf="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="60dp"
+        android:id="@+id/textViewExperience"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="Timing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView13"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView16"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView16"
+        android:layout_toRightOf="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="60dp"
+        android:id="@+id/textViewTiming"
+        android:textSize="20sp" />
+    <TextView
+        android:text="Hometutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView16"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_toRightOf="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="60dp"
+        android:id="@+id/textViewhometutor"
+        android:textSize="20sp" />
+    <TextView
+        android:text="Charges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView6"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_toRightOf="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="60dp"
+        android:id="@+id/textViewCharges"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:text="No description provided"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/textView19"
+        android:layout_alignLeft="@+id/textView19"
+        android:layout_alignStart="@+id/textView19"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textViewdescription"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="190dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:id="@+id/textView19"
+        android:textSize="25sp"
+        android:layout_below="@+id/textView6"
+        android:layout_alignRight="@+id/textView13"
+        android:layout_alignEnd="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/textView1"
+        android:layout_toRightOf="@+id/textView1" />
+</RelativeLayout>
+</ScrollView>

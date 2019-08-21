@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageViewprofilepic"
+        android:layout_width="320dp"
+        android:layout_height="300dp"
+        android:layout_alignLeft="@+id/textView25"
+        android:layout_alignStart="@+id/textView25"
+        android:layout_below="@+id/textView25"
+        android:layout_marginTop="27dp"
+        android:onClick="onprofilepicdialogs"
+        app:srcCompat="@drawable/defaultprofilepic" />
+
+    <TextView
+        android:text="Upload Your Profile Picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView25"
+        android:textSize="27sp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/imageViewprofilepic"
+        android:layout_alignEnd="@+id/imageViewprofilepic"
+        android:layout_alignRight="@+id/imageViewprofilepic"
+        android:onClick="onprofilepicdialogs"
+        app:srcCompat="@drawable/edit1600" />
+
+    <TextView
+        android:id="@+id/textViewphotoupload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageViewprofilepic"
+        android:layout_alignRight="@+id/imageViewprofilepic"
+        android:layout_below="@+id/imageViewprofilepic"
+        android:layout_marginTop="34dp"
+        android:text="Skip>"
+        android:textSize="40sp" />
+</RelativeLayout>

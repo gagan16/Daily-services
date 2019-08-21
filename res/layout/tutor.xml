@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageViewtutor"
+        android:layout_width="70dp"
+        android:layout_height="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/defaultprofilepic" />
+
+    <TextView
+        android:text="Occupation"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewoccupation"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/textViewtutorname"
+        android:layout_alignLeft="@+id/textViewtutorname"
+        android:layout_alignStart="@+id/textViewtutorname"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:text="Experience      Years"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewexperience"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_alignLeft="@+id/textViewoccupation"
+        android:layout_alignStart="@+id/textViewoccupation"
+        android:layout_below="@+id/textViewoccupation" />
+
+    <TextView
+        android:text=" Available from 11 to 11 "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textViewtiming"
+        android:textSize="15sp"
+        android:layout_below="@+id/textViewexperience"
+        android:layout_alignLeft="@+id/textViewoccupation"
+        android:layout_alignStart="@+id/textViewoccupation"/>
+
+    <TextView
+        android:text="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:id="@+id/textViewtutorname"
+
+        android:textSize="20sp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_alignTop="@+id/imageViewtutor"
+        android:layout_toRightOf="@+id/imageViewtutor"
+        android:layout_toEndOf="@+id/imageViewtutor" />
+
+    <TextView
+        android:text="Charges -"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/textViewcharges"
+        android:textSize="15sp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignBaseline="@+id/textViewoccupation"
+        android:layout_alignBottom="@+id/textViewoccupation"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
